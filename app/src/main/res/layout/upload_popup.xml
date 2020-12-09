@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:text="upload"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/uploadProgrammeNameET"
+        android:layout_margin="5dp"
+        android:padding="3dp"
+        android:hint="programme name"
+        android:textColor="#fff"
+        android:background="#00BCD4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/uploadCodeET"
+        android:layout_margin="5dp"
+        android:background="#00BCD4"
+        android:textSize="10dp"
+        android:padding="3dp"
+        android:hint="paste your code here"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

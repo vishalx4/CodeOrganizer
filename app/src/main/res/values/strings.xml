@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Code Organizer</string>
+    <string name="topicname">TopicName</string>
+    <string name="topicdescription">TopicDescription</string>
+</resources>

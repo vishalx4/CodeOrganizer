@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.CodeScreen">
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#3CD844"
+            android:clickable="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:focusable="true">
+            <TextView
+                android:id="@+id/copyCode"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COPY"
+                />
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            >
+            <TextView
+                android:background="#2196F3"
+                android:id="@+id/programmeNameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="programme Name"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="2dp"
+                />
+
+            <TextView
+                android:inputType="textMultiLine"
+                android:text="code"
+                android:padding="10dp"
+                android:background="#fff"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:longClickable="false"
+                android:clickable="false"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/code"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

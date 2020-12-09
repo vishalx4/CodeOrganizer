@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:hint="TOPIC NAME"
+        android:layout_margin="4dp"
+        android:padding="3dp"
+        android:textColor="#fff"
+        android:background="#03A9F4"
+        android:id="@+id/editTopicNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:hint="TOPIC DESCRIPTION"
+        android:layout_margin="4dp"
+        android:padding="3dp"
+        android:textColor="#fff"
+        android:background="#03A9F4"
+        android:id="@+id/editTopicDescriptionET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/editButton"
+        android:text="Add"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp" />
+</LinearLayout>
