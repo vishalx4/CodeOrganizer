@@ -16,8 +16,7 @@ Code Organizer an android app that helps you to organize your codes
 ## App Screenshots
 
 ###App Link
-![4](https://user-images.githubusercontent.com/55027190/101650193-b0f4bd00-3a61-11eb-9b86-b171319ae145.jpg)
-
+![1](https://user-images.githubusercontent.com/55027190/101650336-d386d600-3a61-11eb-9de5-8a642513e617.jpg)
 
 
 *[click hear to download app](https://drive.google.com/file/d/1MsxpEnL3gvJHXLjKpLLj8aFEtOcT9Rt6/view?usp=sharing)
